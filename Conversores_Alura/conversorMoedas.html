@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Angela Paganucci">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/conversorMoedas.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <table>
+            <tr>
+                <td width="338px"><a href="https://alura.com.br" target="_blank"> <img
+                            src="https://www.alura.com.br/assets/img/imersoes/general/og-imersao-alura.1595534856.png"
+                            alt="">
+                    </a> </td>
+                <td width="1000px">
+                   <h1>Conversor de Moedas</h1>                     
+                   
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <div class="box">
+        <div>
+            <ul id="menu14">
+                <li><a href="index.html" target="_blank">Pagina Inicial</a></li>
+                <li><a href="temperatura.html" target="_blank">Conversor de Temperatura</a></li>
+                <li><a href="calculadora.html" target="_blank">Calculadora</a></li>
+            </ul>
+        </div>
+
+        <div id="interface">
+            <span>Valor: </span> <br id="br"> <input id="entrada" type="number"> <br id="br">
+            <span>Moeda: </span>
+            <select id="moedas">
+                <option value='0'>Selecione</option>
+                <option value='1'>Dólar</option>
+                <option value='2'>Euro</option>
+                <option value='3'>Peso argentino</option>
+                <option value='4'>Litecoin</option>
+                <option value='5'>Bitcoin</option>
+                <option value='6'>Ethereum</option>
+                <option value='7'>Libra Esterlina</option>
+                <option value='8'>Dólar canadense</option>
+                <option value='9'>Dólar australiano</option>
+                <option value='10'>Iene Japonês</option>
+                <option value='11'>Franco Suíço</option>
+            </select>
+            <button onclick="converter()">Calcular</button>
+            <br>
+            <h3 id="saida"></h3>
+            <span id="atualizacao"></span>
+            <div id="textoVoltar"><a id="voltar" href="index.html">Voltar</a></div>
+        </div>
+    </div>
+
+    </td>
+    </tr>
+    </table>
+
+
+
+
+
+    <footer>
+        <table class="redes_sociais">
+            <tr>
+                <td><a href="https://www.facebook.com/angelapaganucci" target="_blank"><img src="img/facebook.png"
+                            alt=""></a> </td>
+                <td><a href="https://www.instagram.com/angelapaganucci82/" target="_blank"><img src="img/instagram.png"
+                            alt=""></a> </td>
+                <td><a href="https://www.linkedin.com/in/angelapaganucci/" target="_blank"><img src="img/LinkedIn.png"
+                            alt=""></a> </td>
+                <td><a href="https://api.whatsapp.com/send/?phone=5516997314217&text=Ol%C3%A1!&app_absent=0"
+                        target="_blank"><img src="img/whats.png" alt=""></a> </td>
+                <td><a href="https://github.com/angelapaganucci" target="_blank"><img src="img/github.png" alt=""></a>
+                </td>
+            </tr>
+
+        </table>
+    </footer>
+</body>
+
+</html>
